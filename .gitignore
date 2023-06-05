@@ -1,4 +1,3 @@
 .pytest_cache/
 .env
-hotel_room_management/__pycache__/
-tests/__pycache__/
+*/__pycache__/
