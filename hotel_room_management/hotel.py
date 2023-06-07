@@ -138,6 +138,7 @@ class Hotel:
 		available_rooms_str = ", ".join(available_rooms)
 		print("Number of available rooms: {}".format(len(available_rooms)))
 		print("Available rooms: {}".format(available_rooms_str))
+		return available_rooms_str
 
 	def list_rooms(self):
 		for floor in self.floors[::-1]:
